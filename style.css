@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-photo/pink-school-stationery-top-view-260nw-1139397368.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+   
+.navbar{
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style:none ;
+    float: left;
+}
+.navbar ul li{````
+    display: inline-block;
+    padding: 20px 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul li:hover{
+    border-bottom:  2px solid black;
+    transition: 0.9s;
+}
